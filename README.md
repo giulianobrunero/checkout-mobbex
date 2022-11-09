@@ -30,8 +30,10 @@ More information on test cards here: https://mobbex.dev/tarjetas-de-prueba
 Click in 'continuar', it will look something like this:
 [![image](https://i.ibb.co/BKKZFzT/Screenshot-from-2022-11-09-08-49-13.png)]()
 After the counting time is over, it is redirected to the url indicated in the 'RETURN_URL' variable.
-## 8) Obtain test card data
+## 8) Receive payment notification (IPN)
 The POST payment notification (IPN) is received at the url indicated in the 'WEBHOOK' variable.
+In my case I am using mockapi.io, which allows me to quickly create an API for free. The endpoint is ready to receive the mobbex IPNs.
 [![image](https://i.ibb.co/vYXqsm5/Screenshot-from-2022-11-09-08-49-39.png)]()
+
 
 **Free Software, Hell Yeah!**
